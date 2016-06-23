@@ -44,6 +44,7 @@ I tried two different approaches, the first one I named 'classic' & the second o
 - Google map images sometime return bad images (cause we are using the free version!)
 - The coming bus information sometime fail and return "(null)". this case is not handled
 - Canceling the already running network request if the cell is not being displayed any more!
+- Refreshing the screen with the incoming buses. If the user hold the screen, it's information is not updated!
 
 
 
