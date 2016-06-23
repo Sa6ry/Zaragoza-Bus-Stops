@@ -36,6 +36,7 @@ I tried two different approaches, the first one I named 'classic' & the second o
 - Adding caching to fast loading the bus station list
 - Adding features like "Favorite" to make the app more usable
 - Adding icon, loading screen to make things more fancy
+- Saving the user state, like the last search filter for better usability
 
 ## BUGS
 - Handling & showing network errors (currently we assume things go smothly)
