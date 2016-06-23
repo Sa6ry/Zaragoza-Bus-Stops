@@ -30,16 +30,19 @@ The Code is known to work best with iOS 9.0 on iPhone devices, it plays niceley 
 I tried two different approaches, the first one I named 'classic' & the second one I named 'modern'
 
 ## TODO
-
 - Unit Test & UI Test
 - The search & refresh button in the classic view controller are not functioning
 - A loading animation while featching the bus station list
-- Handling & showing network errors (currently we assume things go smothly)
-- Handling the case when the user press "No" when being asked to allow location service
 - Adding caching to fast loading the bus station list
-- Google map images sometime return bad images (cause we are using the free version!)
-- Canceling the already running network request if the cell is not being displayed any more!
 - Adding features like "Favorite" to make the app more usable
 - Adding icon, loading screen to make things more fancy
+
+## BUGS
+- Handling & showing network errors (currently we assume things go smothly)
+- Handling the case when the user press "No" when being asked to allow location service
+- Google map images sometime return bad images (cause we are using the free version!)
+- The coming bus information sometime fail and return "(null)". this case is not handled
+- Canceling the already running network request if the cell is not being displayed any more!
+
 
 
