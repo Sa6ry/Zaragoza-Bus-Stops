@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="IWt-B8-gTp" customClass="ClassicStationInfoCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="275" height="277"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="275" height="277"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="E8Y-ac-5z3" userLabel="Map Image View">
+                        <rect key="frame" x="0.0" y="26" width="275" height="251"/>
+                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gxt-EE-bCq" userLabel="BusStation Stand Image View">
+                        <rect key="frame" x="134" y="46" width="6" height="83"/>
+                        <color key="backgroundColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="6" id="WWt-Uy-lTf"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="251" text="Miguel Labordeta" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gRD-3H-CC1">
+                        <rect key="frame" x="8" y="0.0" width="259" height="26"/>
+                        <color key="tintColor" red="0.27058823529999998" green="0.63137254899999995" blue="0.63137254899999995" alpha="0.98828125" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="26" id="mPs-6D-P4h"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="200" verticalHuggingPriority="251" horizontalCompressionResistancePriority="800" text="5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LPQ-yl-oGB" userLabel="Station Number Label">
+                        <rect key="frame" x="125" y="38" width="25" height="26"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="25" id="Yl4-WS-ntJ"/>
+                            <constraint firstAttribute="height" constant="26" id="p68-No-ps9"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.15813346210000001" green="0.38952478769999999" blue="0.3857278824" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zah-ie-j0l" userLabel="Bus + Tag + Time View">
+                        <rect key="frame" x="0.0" y="153.5" width="124" height="123.5"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="bus_pictogram" translatesAutoresizingMaskIntoConstraints="NO" id="1sc-T6-oI6">
+                                <rect key="frame" x="34.5" y="35.5" width="53.5" height="53.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="1sc-T6-oI6" secondAttribute="height" multiplier="1:1" id="wlY-8j-XOy"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="900" text="35" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3uO-kE-ZEb" userLabel="BusTag Label">
+                                <rect key="frame" x="8" y="8" width="37" height="37"/>
+                                <color key="backgroundColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="3uO-kE-ZEb" secondAttribute="height" multiplier="1:1" id="HpH-3M-ZU0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="900" text=" 100 min" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="14x-O5-OY8" userLabel="Bus Time Label">
+                                <rect key="frame" x="0.0" y="88.5" width="124" height="34.5"/>
+                                <color key="backgroundColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="0.0" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
+                                <color key="textColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.71602909479999999" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" red="0.27058823529999998" green="0.63137254899999995" blue="0.63137254899999995" alpha="0.98828125" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="14x-O5-OY8" firstAttribute="top" secondItem="1sc-T6-oI6" secondAttribute="bottom" id="1jt-9d-bMy"/>
+                            <constraint firstAttribute="width" secondItem="zah-ie-j0l" secondAttribute="height" multiplier="1:1" id="2IW-0W-hIt"/>
+                            <constraint firstItem="3uO-kE-ZEb" firstAttribute="width" relation="greaterThanOrEqual" secondItem="zah-ie-j0l" secondAttribute="width" multiplier="0.3" id="Ha2-DL-ofX"/>
+                            <constraint firstAttribute="bottom" secondItem="14x-O5-OY8" secondAttribute="bottom" constant="0.5" id="MpD-lP-YEj"/>
+                            <constraint firstAttribute="trailing" secondItem="14x-O5-OY8" secondAttribute="trailing" id="bht-GU-Po5"/>
+                            <constraint firstItem="14x-O5-OY8" firstAttribute="centerX" secondItem="1sc-T6-oI6" secondAttribute="centerX" id="fMF-bL-uGz"/>
+                            <constraint firstItem="1sc-T6-oI6" firstAttribute="leading" secondItem="3uO-kE-ZEb" secondAttribute="trailing" constant="-10" id="htn-6t-i7B"/>
+                            <constraint firstItem="3uO-kE-ZEb" firstAttribute="leading" secondItem="zah-ie-j0l" secondAttribute="leadingMargin" id="mI2-dD-0jZ"/>
+                            <constraint firstItem="3uO-kE-ZEb" firstAttribute="top" secondItem="zah-ie-j0l" secondAttribute="topMargin" id="r4e-Ki-0ah"/>
+                            <constraint firstItem="1sc-T6-oI6" firstAttribute="top" secondItem="3uO-kE-ZEb" secondAttribute="bottom" constant="-10" id="viL-ND-FuE"/>
+                            <constraint firstItem="14x-O5-OY8" firstAttribute="leading" relation="lessThanOrEqual" secondItem="zah-ie-j0l" secondAttribute="leading" id="vp6-mA-EuH"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <color key="backgroundColor" red="0.27058823529999998" green="0.63137254899999995" blue="0.63137254899999995" alpha="0.97629310344827591" colorSpace="calibratedRGB"/>
+            <color key="tintColor" red="0.27058823529999998" green="0.63137254899999995" blue="0.63137254899999995" alpha="0.98828125" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="E8Y-ac-5z3" firstAttribute="leading" secondItem="IWt-B8-gTp" secondAttribute="leading" id="Bdt-oN-Uy6"/>
+                <constraint firstItem="zah-ie-j0l" firstAttribute="leading" secondItem="IWt-B8-gTp" secondAttribute="leading" id="Dxq-OD-Tdp"/>
+                <constraint firstAttribute="bottom" secondItem="E8Y-ac-5z3" secondAttribute="bottom" id="M3q-js-kOH"/>
+                <constraint firstItem="zah-ie-j0l" firstAttribute="width" secondItem="IWt-B8-gTp" secondAttribute="width" multiplier="0.45" id="Ms7-ic-52b"/>
+                <constraint firstAttribute="trailing" secondItem="E8Y-ac-5z3" secondAttribute="trailing" id="PPs-vd-74c"/>
+                <constraint firstItem="LPQ-yl-oGB" firstAttribute="top" secondItem="IWt-B8-gTp" secondAttribute="topMargin" constant="30" id="Qxn-Lo-UQ4"/>
+                <constraint firstItem="gxt-EE-bCq" firstAttribute="top" secondItem="LPQ-yl-oGB" secondAttribute="bottom" constant="-18" id="Ylj-xO-FFC"/>
+                <constraint firstItem="gxt-EE-bCq" firstAttribute="height" secondItem="IWt-B8-gTp" secondAttribute="height" multiplier="0.3" id="ZSG-Kf-vOK"/>
+                <constraint firstAttribute="centerXWithinMargins" secondItem="LPQ-yl-oGB" secondAttribute="centerX" id="d6o-Z6-Cv0"/>
+                <constraint firstItem="E8Y-ac-5z3" firstAttribute="top" secondItem="gRD-3H-CC1" secondAttribute="bottom" id="hev-YV-q1C"/>
+                <constraint firstAttribute="bottom" secondItem="zah-ie-j0l" secondAttribute="bottom" id="k2q-vP-6de"/>
+                <constraint firstItem="gRD-3H-CC1" firstAttribute="top" secondItem="IWt-B8-gTp" secondAttribute="top" id="o6T-xb-7Ou"/>
+                <constraint firstItem="gxt-EE-bCq" firstAttribute="centerX" secondItem="LPQ-yl-oGB" secondAttribute="centerX" id="rwb-DV-jg6"/>
+                <constraint firstAttribute="trailingMargin" secondItem="gRD-3H-CC1" secondAttribute="trailing" id="tmO-a9-dpK"/>
+                <constraint firstItem="gRD-3H-CC1" firstAttribute="leading" secondItem="IWt-B8-gTp" secondAttribute="leadingMargin" id="ybQ-E1-v61"/>
+            </constraints>
+            <size key="customSize" width="275" height="277"/>
+            <connections>
+                <outlet property="busEstimateLabel" destination="14x-O5-OY8" id="gel-yp-Cg9"/>
+                <outlet property="busInfoContainer" destination="zah-ie-j0l" id="6nb-2V-2ck"/>
+                <outlet property="busNumberLabel" destination="3uO-kE-ZEb" id="bBl-TS-1Dz"/>
+                <outlet property="mapImageView" destination="E8Y-ac-5z3" id="LOg-tF-8Ap"/>
+                <outlet property="stationNumberLabel" destination="LPQ-yl-oGB" id="Z7n-8T-duu"/>
+                <outlet property="stationTitleLabel" destination="gRD-3H-CC1" id="PRR-Z7-dzn"/>
+            </connections>
+            <point key="canvasLocation" x="59.5" y="563.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="bus_pictogram" width="64" height="64"/>
+    </resources>
+</document>

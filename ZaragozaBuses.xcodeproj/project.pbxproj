@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F24077D1D1871ED0006447F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F24077C1D1871ED0006447F /* main.m */; };
+		1F2407801D1871ED0006447F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F24077F1D1871ED0006447F /* AppDelegate.m */; };
+		1F2407861D1871ED0006447F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F2407841D1871ED0006447F /* Main.storyboard */; };
+		1F2407891D1871ED0006447F /* ZaragozaBuses.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1F2407871D1871ED0006447F /* ZaragozaBuses.xcdatamodeld */; };
+		1F24078B1D1871ED0006447F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F24078A1D1871ED0006447F /* Assets.xcassets */; };
+		1F24078E1D1871ED0006447F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F24078C1D1871ED0006447F /* LaunchScreen.storyboard */; };
+		1F2407991D1871ED0006447F /* ZaragozaBusesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2407981D1871ED0006447F /* ZaragozaBusesTests.m */; };
+		1F2407A41D1871ED0006447F /* ZaragozaBusesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2407A31D1871ED0006447F /* ZaragozaBusesUITests.m */; };
+		1F2407B71D1872280006447F /* BusStop.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2407B21D1872280006447F /* BusStop.m */; };
+		1F2407B81D1872280006447F /* WebBaseAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2407B41D1872280006447F /* WebBaseAPI.m */; };
+		1F2407B91D1872280006447F /* BusStopListAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2407B61D1872280006447F /* BusStopListAPI.m */; };
+		1F2407BE1D1878ED0006447F /* BusStopComingBus.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2407BD1D1878ED0006447F /* BusStopComingBus.m */; };
+		1F2407C11D1886520006447F /* BusStopComingBusesAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2407C01D1886520006447F /* BusStopComingBusesAPI.m */; };
+		1F2407C41D1892EE0006447F /* ClassicBusListCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2407C31D1892EE0006447F /* ClassicBusListCollectionViewController.m */; };
+		1F7458811D19671900F18B12 /* ClassicStationInfoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7458801D19671900F18B12 /* ClassicStationInfoCollectionViewCell.m */; };
+		1F7458841D1BCEED00F18B12 /* GoogleMapImageAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7458831D1BCEED00F18B12 /* GoogleMapImageAPI.m */; };
+		1F961F7C1D1C44FA0067624B /* ModernStationInfoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F961F7B1D1C44FA0067624B /* ModernStationInfoCollectionViewCell.m */; };
+		1FE3FCEA1D1C1E8800197E32 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FE3FCE91D1C1E8800197E32 /* MapKit.framework */; };
+		1FE3FCF61D1C295300197E32 /* BusStationCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE3FCF51D1C295300197E32 /* BusStationCollectionViewCell.m */; };
+		1FE3FCFA1D1C2ADA00197E32 /* modernBusCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FE3FCF91D1C2ADA00197E32 /* modernBusCell.xib */; };
+		1FE3FCFC1D1C2AE700197E32 /* classicBusCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FE3FCFB1D1C2AE700197E32 /* classicBusCell.xib */; };
+		1FE3FD001D1C32F800197E32 /* ModernBusListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE3FCFF1D1C32F800197E32 /* ModernBusListViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F2407951D1871ED0006447F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F2407701D1871ED0006447F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F2407771D1871ED0006447F;
+			remoteInfo = ZaragozaBuses;
+		};
+		1F2407A01D1871ED0006447F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F2407701D1871ED0006447F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F2407771D1871ED0006447F;
+			remoteInfo = ZaragozaBuses;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F2407781D1871ED0006447F /* ZaragozaBuses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZaragozaBuses.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F24077C1D1871ED0006447F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F24077E1D1871ED0006447F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1F24077F1D1871ED0006447F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1F2407851D1871ED0006447F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F2407881D1871ED0006447F /* ZaragozaBuses.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZaragozaBuses.xcdatamodel; sourceTree = "<group>"; };
+		1F24078A1D1871ED0006447F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F24078D1D1871ED0006447F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F24078F1D1871ED0006447F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F2407941D1871ED0006447F /* ZaragozaBusesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZaragozaBusesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F2407981D1871ED0006447F /* ZaragozaBusesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZaragozaBusesTests.m; sourceTree = "<group>"; };
+		1F24079A1D1871ED0006447F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F24079F1D1871ED0006447F /* ZaragozaBusesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZaragozaBusesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F2407A31D1871ED0006447F /* ZaragozaBusesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZaragozaBusesUITests.m; sourceTree = "<group>"; };
+		1F2407A51D1871ED0006447F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F2407B11D1872280006447F /* BusStop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusStop.h; sourceTree = "<group>"; };
+		1F2407B21D1872280006447F /* BusStop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusStop.m; sourceTree = "<group>"; };
+		1F2407B31D1872280006447F /* WebBaseAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebBaseAPI.h; sourceTree = "<group>"; };
+		1F2407B41D1872280006447F /* WebBaseAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebBaseAPI.m; sourceTree = "<group>"; };
+		1F2407B51D1872280006447F /* BusStopListAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusStopListAPI.h; sourceTree = "<group>"; };
+		1F2407B61D1872280006447F /* BusStopListAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusStopListAPI.m; sourceTree = "<group>"; };
+		1F2407BC1D1878ED0006447F /* BusStopComingBus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusStopComingBus.h; sourceTree = "<group>"; };
+		1F2407BD1D1878ED0006447F /* BusStopComingBus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusStopComingBus.m; sourceTree = "<group>"; };
+		1F2407BF1D1886520006447F /* BusStopComingBusesAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusStopComingBusesAPI.h; sourceTree = "<group>"; };
+		1F2407C01D1886520006447F /* BusStopComingBusesAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusStopComingBusesAPI.m; sourceTree = "<group>"; };
+		1F2407C21D1892EE0006447F /* ClassicBusListCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassicBusListCollectionViewController.h; sourceTree = "<group>"; };
+		1F2407C31D1892EE0006447F /* ClassicBusListCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassicBusListCollectionViewController.m; sourceTree = "<group>"; };
+		1F74587F1D19671900F18B12 /* ClassicStationInfoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassicStationInfoCollectionViewCell.h; sourceTree = "<group>"; };
+		1F7458801D19671900F18B12 /* ClassicStationInfoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassicStationInfoCollectionViewCell.m; sourceTree = "<group>"; };
+		1F7458821D1BCEED00F18B12 /* GoogleMapImageAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleMapImageAPI.h; sourceTree = "<group>"; };
+		1F7458831D1BCEED00F18B12 /* GoogleMapImageAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleMapImageAPI.m; sourceTree = "<group>"; };
+		1F961F7A1D1C44FA0067624B /* ModernStationInfoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModernStationInfoCollectionViewCell.h; sourceTree = "<group>"; };
+		1F961F7B1D1C44FA0067624B /* ModernStationInfoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModernStationInfoCollectionViewCell.m; sourceTree = "<group>"; };
+		1FE3FCE91D1C1E8800197E32 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		1FE3FCF41D1C295300197E32 /* BusStationCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusStationCollectionViewCell.h; sourceTree = "<group>"; };
+		1FE3FCF51D1C295300197E32 /* BusStationCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusStationCollectionViewCell.m; sourceTree = "<group>"; };
+		1FE3FCF91D1C2ADA00197E32 /* modernBusCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = modernBusCell.xib; sourceTree = "<group>"; };
+		1FE3FCFB1D1C2AE700197E32 /* classicBusCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = classicBusCell.xib; sourceTree = "<group>"; };
+		1FE3FCFE1D1C32F800197E32 /* ModernBusListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModernBusListViewController.h; sourceTree = "<group>"; };
+		1FE3FCFF1D1C32F800197E32 /* ModernBusListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModernBusListViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F2407751D1871ED0006447F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FE3FCEA1D1C1E8800197E32 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F2407911D1871ED0006447F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F24079C1D1871ED0006447F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F24076F1D1871ED0006447F = {
+			isa = PBXGroup;
+			children = (
+				1FE3FCE91D1C1E8800197E32 /* MapKit.framework */,
+				1F24077A1D1871ED0006447F /* ZaragozaBuses */,
+				1F2407971D1871ED0006447F /* ZaragozaBusesTests */,
+				1F2407A21D1871ED0006447F /* ZaragozaBusesUITests */,
+				1F2407791D1871ED0006447F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F2407791D1871ED0006447F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F2407781D1871ED0006447F /* ZaragozaBuses.app */,
+				1F2407941D1871ED0006447F /* ZaragozaBusesTests.xctest */,
+				1F24079F1D1871ED0006447F /* ZaragozaBusesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F24077A1D1871ED0006447F /* ZaragozaBuses */ = {
+			isa = PBXGroup;
+			children = (
+				1F2407C51D1892F90006447F /* UI */,
+				1F2407BA1D1872330006447F /* Data */,
+				1F2407BB1D1872370006447F /* Web API */,
+				1F24077E1D1871ED0006447F /* AppDelegate.h */,
+				1F24077F1D1871ED0006447F /* AppDelegate.m */,
+				1F2407841D1871ED0006447F /* Main.storyboard */,
+				1F24078A1D1871ED0006447F /* Assets.xcassets */,
+				1F24078C1D1871ED0006447F /* LaunchScreen.storyboard */,
+				1F24078F1D1871ED0006447F /* Info.plist */,
+				1F2407871D1871ED0006447F /* ZaragozaBuses.xcdatamodeld */,
+				1F24077B1D1871ED0006447F /* Supporting Files */,
+			);
+			path = ZaragozaBuses;
+			sourceTree = "<group>";
+		};
+		1F24077B1D1871ED0006447F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F24077C1D1871ED0006447F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F2407971D1871ED0006447F /* ZaragozaBusesTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F2407981D1871ED0006447F /* ZaragozaBusesTests.m */,
+				1F24079A1D1871ED0006447F /* Info.plist */,
+			);
+			path = ZaragozaBusesTests;
+			sourceTree = "<group>";
+		};
+		1F2407A21D1871ED0006447F /* ZaragozaBusesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1F2407A31D1871ED0006447F /* ZaragozaBusesUITests.m */,
+				1F2407A51D1871ED0006447F /* Info.plist */,
+			);
+			path = ZaragozaBusesUITests;
+			sourceTree = "<group>";
+		};
+		1F2407BA1D1872330006447F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				1F2407B11D1872280006447F /* BusStop.h */,
+				1F2407B21D1872280006447F /* BusStop.m */,
+				1F2407BC1D1878ED0006447F /* BusStopComingBus.h */,
+				1F2407BD1D1878ED0006447F /* BusStopComingBus.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		1F2407BB1D1872370006447F /* Web API */ = {
+			isa = PBXGroup;
+			children = (
+				1F2407B31D1872280006447F /* WebBaseAPI.h */,
+				1F2407B41D1872280006447F /* WebBaseAPI.m */,
+				1F2407B51D1872280006447F /* BusStopListAPI.h */,
+				1F2407B61D1872280006447F /* BusStopListAPI.m */,
+				1F2407BF1D1886520006447F /* BusStopComingBusesAPI.h */,
+				1F2407C01D1886520006447F /* BusStopComingBusesAPI.m */,
+				1F7458821D1BCEED00F18B12 /* GoogleMapImageAPI.h */,
+				1F7458831D1BCEED00F18B12 /* GoogleMapImageAPI.m */,
+			);
+			name = "Web API";
+			sourceTree = "<group>";
+		};
+		1F2407C51D1892F90006447F /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				1FE3FCFD1D1C2FCA00197E32 /* station bus cell */,
+				1FE3FCEC1D1C22A700197E32 /* View Controllers */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		1FE3FCEC1D1C22A700197E32 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1F2407C21D1892EE0006447F /* ClassicBusListCollectionViewController.h */,
+				1F2407C31D1892EE0006447F /* ClassicBusListCollectionViewController.m */,
+				1FE3FCFE1D1C32F800197E32 /* ModernBusListViewController.h */,
+				1FE3FCFF1D1C32F800197E32 /* ModernBusListViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		1FE3FCF71D1C2ABA00197E32 /* modern cell */ = {
+			isa = PBXGroup;
+			children = (
+				1FE3FCF91D1C2ADA00197E32 /* modernBusCell.xib */,
+				1F961F7A1D1C44FA0067624B /* ModernStationInfoCollectionViewCell.h */,
+				1F961F7B1D1C44FA0067624B /* ModernStationInfoCollectionViewCell.m */,
+			);
+			name = "modern cell";
+			sourceTree = "<group>";
+		};
+		1FE3FCF81D1C2AC500197E32 /* classic cell */ = {
+			isa = PBXGroup;
+			children = (
+				1FE3FCFB1D1C2AE700197E32 /* classicBusCell.xib */,
+				1F74587F1D19671900F18B12 /* ClassicStationInfoCollectionViewCell.h */,
+				1F7458801D19671900F18B12 /* ClassicStationInfoCollectionViewCell.m */,
+			);
+			name = "classic cell";
+			sourceTree = "<group>";
+		};
+		1FE3FCFD1D1C2FCA00197E32 /* station bus cell */ = {
+			isa = PBXGroup;
+			children = (
+				1FE3FCF41D1C295300197E32 /* BusStationCollectionViewCell.h */,
+				1FE3FCF51D1C295300197E32 /* BusStationCollectionViewCell.m */,
+				1FE3FCF71D1C2ABA00197E32 /* modern cell */,
+				1FE3FCF81D1C2AC500197E32 /* classic cell */,
+			);
+			name = "station bus cell";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F2407771D1871ED0006447F /* ZaragozaBuses */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F2407A81D1871ED0006447F /* Build configuration list for PBXNativeTarget "ZaragozaBuses" */;
+			buildPhases = (
+				1F2407741D1871ED0006447F /* Sources */,
+				1F2407751D1871ED0006447F /* Frameworks */,
+				1F2407761D1871ED0006447F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZaragozaBuses;
+			productName = ZaragozaBuses;
+			productReference = 1F2407781D1871ED0006447F /* ZaragozaBuses.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F2407931D1871ED0006447F /* ZaragozaBusesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F2407AB1D1871ED0006447F /* Build configuration list for PBXNativeTarget "ZaragozaBusesTests" */;
+			buildPhases = (
+				1F2407901D1871ED0006447F /* Sources */,
+				1F2407911D1871ED0006447F /* Frameworks */,
+				1F2407921D1871ED0006447F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F2407961D1871ED0006447F /* PBXTargetDependency */,
+			);
+			name = ZaragozaBusesTests;
+			productName = ZaragozaBusesTests;
+			productReference = 1F2407941D1871ED0006447F /* ZaragozaBusesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1F24079E1D1871ED0006447F /* ZaragozaBusesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F2407AE1D1871ED0006447F /* Build configuration list for PBXNativeTarget "ZaragozaBusesUITests" */;
+			buildPhases = (
+				1F24079B1D1871ED0006447F /* Sources */,
+				1F24079C1D1871ED0006447F /* Frameworks */,
+				1F24079D1D1871ED0006447F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F2407A11D1871ED0006447F /* PBXTargetDependency */,
+			);
+			name = ZaragozaBusesUITests;
+			productName = ZaragozaBusesUITests;
+			productReference = 1F24079F1D1871ED0006447F /* ZaragozaBusesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F2407701D1871ED0006447F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Sa6ry;
+				TargetAttributes = {
+					1F2407771D1871ED0006447F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					1F2407931D1871ED0006447F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 1F2407771D1871ED0006447F;
+					};
+					1F24079E1D1871ED0006447F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 1F2407771D1871ED0006447F;
+					};
+				};
+			};
+			buildConfigurationList = 1F2407731D1871ED0006447F /* Build configuration list for PBXProject "ZaragozaBuses" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F24076F1D1871ED0006447F;
+			productRefGroup = 1F2407791D1871ED0006447F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F2407771D1871ED0006447F /* ZaragozaBuses */,
+				1F2407931D1871ED0006447F /* ZaragozaBusesTests */,
+				1F24079E1D1871ED0006447F /* ZaragozaBusesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F2407761D1871ED0006447F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F24078E1D1871ED0006447F /* LaunchScreen.storyboard in Resources */,
+				1FE3FCFC1D1C2AE700197E32 /* classicBusCell.xib in Resources */,
+				1F24078B1D1871ED0006447F /* Assets.xcassets in Resources */,
+				1FE3FCFA1D1C2ADA00197E32 /* modernBusCell.xib in Resources */,
+				1F2407861D1871ED0006447F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F2407921D1871ED0006447F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F24079D1D1871ED0006447F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F2407741D1871ED0006447F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F2407B81D1872280006447F /* WebBaseAPI.m in Sources */,
+				1F7458811D19671900F18B12 /* ClassicStationInfoCollectionViewCell.m in Sources */,
+				1F961F7C1D1C44FA0067624B /* ModernStationInfoCollectionViewCell.m in Sources */,
+				1F2407B71D1872280006447F /* BusStop.m in Sources */,
+				1F2407801D1871ED0006447F /* AppDelegate.m in Sources */,
+				1F2407BE1D1878ED0006447F /* BusStopComingBus.m in Sources */,
+				1F24077D1D1871ED0006447F /* main.m in Sources */,
+				1F2407C41D1892EE0006447F /* ClassicBusListCollectionViewController.m in Sources */,
+				1F7458841D1BCEED00F18B12 /* GoogleMapImageAPI.m in Sources */,
+				1F2407891D1871ED0006447F /* ZaragozaBuses.xcdatamodeld in Sources */,
+				1FE3FD001D1C32F800197E32 /* ModernBusListViewController.m in Sources */,
+				1F2407B91D1872280006447F /* BusStopListAPI.m in Sources */,
+				1FE3FCF61D1C295300197E32 /* BusStationCollectionViewCell.m in Sources */,
+				1F2407C11D1886520006447F /* BusStopComingBusesAPI.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F2407901D1871ED0006447F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F2407991D1871ED0006447F /* ZaragozaBusesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F24079B1D1871ED0006447F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F2407A41D1871ED0006447F /* ZaragozaBusesUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F2407961D1871ED0006447F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F2407771D1871ED0006447F /* ZaragozaBuses */;
+			targetProxy = 1F2407951D1871ED0006447F /* PBXContainerItemProxy */;
+		};
+		1F2407A11D1871ED0006447F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F2407771D1871ED0006447F /* ZaragozaBuses */;
+			targetProxy = 1F2407A01D1871ED0006447F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F2407841D1871ED0006447F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F2407851D1871ED0006447F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F24078C1D1871ED0006447F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F24078D1D1871ED0006447F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F2407A61D1871ED0006447F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F2407A71D1871ED0006447F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F2407A91D1871ED0006447F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZaragozaBuses/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xNeat.ZaragozaBuses;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1F2407AA1D1871ED0006447F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZaragozaBuses/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xNeat.ZaragozaBuses;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1F2407AC1D1871ED0006447F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZaragozaBusesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xNeat.ZaragozaBusesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZaragozaBuses.app/ZaragozaBuses";
+			};
+			name = Debug;
+		};
+		1F2407AD1D1871ED0006447F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZaragozaBusesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xNeat.ZaragozaBusesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZaragozaBuses.app/ZaragozaBuses";
+			};
+			name = Release;
+		};
+		1F2407AF1D1871ED0006447F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZaragozaBusesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xNeat.ZaragozaBusesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZaragozaBuses;
+			};
+			name = Debug;
+		};
+		1F2407B01D1871ED0006447F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZaragozaBusesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xNeat.ZaragozaBusesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZaragozaBuses;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F2407731D1871ED0006447F /* Build configuration list for PBXProject "ZaragozaBuses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F2407A61D1871ED0006447F /* Debug */,
+				1F2407A71D1871ED0006447F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F2407A81D1871ED0006447F /* Build configuration list for PBXNativeTarget "ZaragozaBuses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F2407A91D1871ED0006447F /* Debug */,
+				1F2407AA1D1871ED0006447F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F2407AB1D1871ED0006447F /* Build configuration list for PBXNativeTarget "ZaragozaBusesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F2407AC1D1871ED0006447F /* Debug */,
+				1F2407AD1D1871ED0006447F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F2407AE1D1871ED0006447F /* Build configuration list for PBXNativeTarget "ZaragozaBusesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F2407AF1D1871ED0006447F /* Debug */,
+				1F2407B01D1871ED0006447F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1F2407871D1871ED0006447F /* ZaragozaBuses.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1F2407881D1871ED0006447F /* ZaragozaBuses.xcdatamodel */,
+			);
+			currentVersion = 1F2407881D1871ED0006447F /* ZaragozaBuses.xcdatamodel */;
+			path = ZaragozaBuses.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1F2407701D1871ED0006447F /* Project object */;
+}
